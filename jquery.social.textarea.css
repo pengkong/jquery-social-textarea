@@ -1,0 +1,25 @@
+/**
+ * jQuery Social Textarea v0.1.0
+ * Copyright 2013 Choy Peng Kong
+ * An unobstrusive Facebook/Twitter style textarea plugin for JQuery.
+ *
+ * Dual licensed under the MIT and GPL
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+.social-textarea-content-editable { outline:none; border:1px solid #ccc; padding:5px; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px; }
+.social-textarea-content-editable-placeholder { color:#999; }
+.social-textarea-content-editable .highlight { background:#eee; border:1px solid #ccc; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px; }
+.social-textarea-result ul { padding:0; margin:0; list-style:none; border:1px solid #999; }
+.social-textarea-result ul li { cursor:pointer; cursor:hand; }
+.social-textarea-result ul li.highlight { background:#666; color:#fff; }
+.social-textarea-result-item-image img { width:30px; height:30px; margin-right:10px; }

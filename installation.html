@@ -1,0 +1,62 @@
+<!doctype html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<head>
+<title>jQuery Social Textarea</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="external/bootstrap/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="external/syntaxhighlighter/styles/shCoreDefault.css"/>
+<script src="external/jquery-1.9.1.min.js"></script>
+<script src="external/syntaxhighlighter/scripts/shCore.js"></script>
+<script src="external/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+<style>
+div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
+    content:none;
+}
+</style>
+<script>
+SyntaxHighlighter.defaults.toolbar = false;
+SyntaxHighlighter.all();
+</script>
+</head>
+<body>
+<div id="content">
+	<div class="container">
+		<div class="row">
+			<div class="span6">
+				<h1>jQuery Social Textarea <small>Verson 0.1.0</small></h1>
+				<p>An unobstrusive Twitter/Facebook-style textarea for JQuery</p>
+				<ul class="nav nav-tabs">
+					<li><a href="index.html">About</a></li>
+					<li><a href="demo.html">Demo</a></li>
+					<li class="active"><a href="installation.html">Installation</a></li>
+				</ul>
+				
+<div class="page-header">
+	<h2>Getting Started</h2>
+</div>
+<h3>Add jQuery and Social Textarea scripts:</h3>
+<pre class="brush: js;">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="PATH/TO/jquery.social.textarea.min.js"></script>
+</pre>
+<h3>The html should look similar to:</h3>
+<pre class="brush: js;">
+<textarea class="social-textarea"></textarea>
+</pre>
+<h3>Invoke the JavaScript call:</h3>
+<pre class="brush: js;">
+$(function() {
+	$(".social-textarea").SocialTextarea();
+});
+</pre>
+				
+				<p style="text-align:center; margin:50px 0; padding:20px 0; color:#999; border-top:1px dashed #eee;"><small>- End of Page -</small></p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

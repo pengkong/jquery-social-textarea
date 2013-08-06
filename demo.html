@@ -1,0 +1,39 @@
+<!doctype html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<head>
+<title>jQuery Social Textarea</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="external/bootstrap/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="jquery.social.textarea.css" />
+<script src="external/jquery-1.9.1.min.js"></script>
+<script src="jquery.social.textarea.js"></script>
+</head>
+<body>
+<div id="content">
+	<div class="container">
+		<div class="row">
+			<div class="span6">
+				<h1>jQuery Social Textarea <small>Verson 0.1.0</small></h1>
+				<p>An unobstrusive Twitter/Facebook-style textarea for JQuery</p>
+				<ul class="nav nav-tabs">
+					<li><a href="index.html">About</a></li>
+					<li class="active"><a href="demo.html">Demo</a></li>
+					<li><a href="installation.html">Installation</a></li>
+				</ul>
+				<p>Type @j...</p>
+				<textarea class="social-textarea"></textarea>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function() {
+	$(".social-textarea").SocialTextarea();
+	$(".social-textarea-content-editable").focus();
+});
+</script>
+</body>
+</html>

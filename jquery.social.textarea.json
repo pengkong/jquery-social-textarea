@@ -1,0 +1,35 @@
+{
+	"name": "social.textarea",
+	"version": "0.1.0",
+	"title": "jQuery Social Textarea",
+	"author": {
+		"name": "Choy Peng Kong",
+		"email": "pengkong@gmail.com",
+		"url": "http://pengkong.blogspot.com/"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/pengkong/jquery-social-textarea/blob/master/LICENSE-MIT.txt"
+		},
+		{
+			"type": "GPL",
+			"url": "https://github.com/pengkong/jquery-social-textarea/blob/master/LICENSE-GPL.txt"
+		}
+	],
+	"dependencies": {
+		"jquery": "1.9.1"
+	},
+	"description": "An unobstrusive Facebook/Twitter style textarea plugin for JQuery.",
+	"keywords": [
+		"input",
+		"textarea",
+		"mention",
+		"hashtag"
+	],
+	"homepage": "http://pengkong.github.io/jquery-social-textarea",
+	"docs": "http://pengkong.github.io/jquery-social-textarea/installation.html",
+	"docs": "http://pengkong.github.io/jquery-social-textarea/demo.html",
+	"download": "https://github.com/pengkong/jquery-social-textarea",
+	"bugs": "https://github.com/pengkong/jquery-social-textarea/issues"
+}
